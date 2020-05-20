@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Add</title>
+      <link rel="stylesheet" type="text/css" href="main.css">
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <script src="js/buffer.js"></script>
+      <script src="https://unpkg.com/ipfs-api@9.0.0/dist/index.js"
+         integrity="sha384-5bXRcW9kyxxnSMbOoHzraqa7Z0PQWIao+cgeg327zit1hz5LZCEbIMx/LWKPReuB"
+         crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.js"></script>
+      <script src="js/block.js"></script>
+      <script src="js/index.js"></script>
+   </head>
+   <body>
+      <div class="formBody">
+      <h4> Add Case Evidence</h4>
+      <label>Case ID: </label>
+      <input id="caseno" class="details" placeholder="Enter case number" type="text" /></br>
+      <fieldset>
+         <legend>Upload files</legend>
+         <input type="file" name="photo" id="photo">
+         <button type="button" onclick="upload()">Calculate Hash</button>  <a id="url"> </a>
+      </fieldset>
+      </br>
+      <button type="button" onclick="submit()" class="detailsSubmit Submit">Add Details</button>
+      <div>
+      </br>
+      </br>
+      <button onclick="clearChain()">Clear Chain</button> 
+   </body>
+</html>
+

@@ -1,0 +1,23 @@
+body {
+	background-color: #00001a;
+	text-align: center;
+}
+
+.formBody {
+	background-color: #ffffff;
+	!important width: 40%;
+	margin: 10%;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+label,
+legend {
+	font-size: 12px;
+	padding: 1em;
+}
+
+.fileUp {
+	padding: 4em;
+}
