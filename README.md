@@ -10,7 +10,7 @@ Install [IPFS](https://ipfs.io) on your local machine. I have used the go-ipfs i
 
 A javascript implementation of the blockchain has been used to demonstrate the behavious of the decentralised netwok. This app can be used to add evidences to IPFS and save the file hashes to blockchain. This app can retrieve ipfs hashes which when compared with file hash to prove its authenticity.
 
-App uses a parameter Case ID to uniquely identify cases and to retrieve the corresponsing hashes.
+App uses a parameter Case ID to uniquely identify cases and to retrieve the corresponding hashes.
 
 
 ## Getting Started
